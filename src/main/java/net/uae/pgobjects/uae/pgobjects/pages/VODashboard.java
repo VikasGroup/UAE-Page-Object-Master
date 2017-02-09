@@ -16,6 +16,9 @@ public class VODashboard extends PageObject{
 	@FindBy(partialLinkText = "HomePure")
 	WebElement HomePure_link;
 	
+	@FindBy(partialLinkText = "VTube+")
+	WebElement vtube_link;
+	
 	@FindBy(xpath = ".//*[@id='header']/div/div[4]/a[2]")
 	WebElement VO;
 	
@@ -33,5 +36,8 @@ public class VODashboard extends PageObject{
 	
 	public void clickVO(){
 		VO.click();
+	}
+	public void clickVTube(){
+		vtube_link.click();
 	}
 }
