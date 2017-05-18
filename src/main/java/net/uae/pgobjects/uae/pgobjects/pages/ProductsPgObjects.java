@@ -8,7 +8,7 @@ import net.serenitybdd.core.pages.PageObject;
 public class ProductsPgObjects extends PageObject {
 
 	
-	 @FindBy(xpath= ".//*[@id='productList']/div[2]/div/div/div[1]/a[3]")
+	 @FindBy(xpath= ".//*[@id='productList']/div[2]/div[6]/div/div[1]/a[3]/span")
 	 WebElement prod1;
 	 
 	 @FindBy(xpath=".//*[@id='productList']/div[2]/div[1]/div/div[1]/a[3]/span")
@@ -23,7 +23,7 @@ public class ProductsPgObjects extends PageObject {
 	 @FindBy(xpath=".//*[@id='header']/div[1]/div[2]/div[1]/div/div/div[2]/div/a/span")
 	 WebElement clearprod_btn;
 	 
-	 @FindBy(xpath= ".//*[@id='productList']/div[2]/section[2]/div/div/div[1]/div/div/div[2]/div/div[4]/div[2]/button[1]")
+	 @FindBy(xpath= ".//*[@id='header']/div[1]/div[2]/div[1]/div/a/span[1]")
 	 WebElement add2cart_btn;
 	 
 	 public void clickProd1(){
